@@ -9,16 +9,22 @@
     "db:studio": "prisma studio",
     "db:seed": "tsx prisma/seed.ts"
   },
+  "prisma": {
+    "seed": "ts-node prisma/seed.ts"
+  },
   "dependencies": {
     "@fastify/cors": "^9.0.1",
+    "@neondatabase/serverless": "^1.1.0",
+    "@prisma/adapter-neon": "^7.8.0",
     "@prisma/client": "^5.14.0",
     "fastify": "^4.28.0",
     "zod": "^3.23.8"
   },
   "devDependencies": {
-    "@types/node": "^20.14.0",
+    "@types/node": "^20.19.43",
     "prisma": "^5.14.0",
+    "ts-node": "^10.9.2",
     "tsx": "^4.15.6",
-    "typescript": "^5.4.5"
+    "typescript": "^5.9.3"
   }
 }
