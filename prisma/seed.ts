@@ -18,7 +18,13 @@ async function main() {
       url: "https://github.com/aliciamunhoz/bookhub-frontend",
       repoUrl: "https://github.com/aliciamunhoz/bookhub-frontend",
       periods: {
-        create: [{ startDate: new Date("2026-06-17"), endDate: new Date("2026-06-17") }],
+        create: [
+          {
+            startDate: new Date("2026-06-17"),
+            endDate: new Date("2026-06-17"),
+            note: "Scaffold com Vite/React/TS, tipos Book/BookInput e serviço de API, fluxo de CRUD de livros, componentes (BookForm, BookList, SearchBar, Message), layout responsivo com estados visuais e README.",
+          },
+        ],
       },
     },
   });
@@ -32,7 +38,13 @@ async function main() {
       color: "#059669",
       repoUrl: "https://github.com/aliciamunhoz/bookhub-backend",
       periods: {
-        create: [{ startDate: new Date("2026-06-17"), endDate: new Date("2026-06-17") }],
+        create: [
+          {
+            startDate: new Date("2026-06-17"),
+            endDate: new Date("2026-06-17"),
+            note: "Ajuste de build/lint/testes, padronização de controllers e bootstrap da app, testes de sucesso e erro nas rotas, logging JSON estruturado, CORS, deploy na Vercel e README.",
+          },
+        ],
       },
     },
   });
@@ -49,7 +61,18 @@ async function main() {
       url: "https://github.com/aliciamunhoz/calendar-project-frontend",
       repoUrl: "https://github.com/aliciamunhoz/calendar-project-frontend",
       periods: {
-        create: [{ startDate: new Date("2026-06-23") }],
+        create: [
+          {
+            startDate: new Date("2026-06-23"),
+            endDate: new Date("2026-06-23"),
+            note: "Scaffold React + TypeScript + Vite, tipos e serviço de API, mapeamento mês-Pokémon com hook usePokemon, componentes principais (Calendar, PokemonPanel, Sidebar, ProjectModal, ProjectForm, PeriodsEditor), state management/routing/estilos globais, TechBadge (mapeamento de cores, legenda de stacks) e README.",
+          },
+          {
+            startDate: new Date("2026-06-25"),
+            endDate: new Date("2026-06-25"),
+            note: "Integração com a API via variáveis de ambiente e tipagem de ImportMetaEnv.",
+          },
+        ],
       },
     },
   });
@@ -63,7 +86,23 @@ async function main() {
       color: "#4f46e5",
       repoUrl: "https://github.com/aliciamunhoz/calendar-project-backend",
       periods: {
-        create: [{ startDate: new Date("2026-06-23") }],
+        create: [
+          {
+            startDate: new Date("2026-06-23"),
+            endDate: new Date("2026-06-23"),
+            note: "Setup da API com Fastify + TypeScript, schema inicial de projetos e períodos, seed de exemplo, CRUD de projetos e períodos, deploy na Vercel, README e gitignore.",
+          },
+          {
+            startDate: new Date("2026-06-24"),
+            endDate: new Date("2026-06-24"),
+            note: "Atualização do seed com BookHub, Project Calendar e Portfolio usando histórico e status reais.",
+          },
+          {
+            startDate: new Date("2026-06-25"),
+            endDate: new Date("2026-06-25"),
+            note: "Migração do datasource para PostgreSQL com schema Project/Period, adapter Neon e seed do Prisma com ts-node, handler serverless Fastify (index.ts) e ajustes de build/deps/roteamento na Vercel (postinstall com prisma generate).",
+          },
+        ],
       },
     },
   });
@@ -83,10 +122,24 @@ async function main() {
         create: [
           {
             startDate: new Date("2026-06-18"),
-            endDate: new Date("2026-06-19"),
-            note: "Versão inicial: interface com tema pokédex, tipagens e serviços de API.",
+            endDate: new Date("2026-06-18"),
+            note: "Scaffold do frontend com React/TS/Vite, tipagens e serviços de consumo da API, interface com seções e listagem de projetos, tema Pokédex (claro/escuro), padronização de tipagens e README.",
           },
-          { startDate: new Date("2026-06-24") },
+          {
+            startDate: new Date("2026-06-19"),
+            endDate: new Date("2026-06-19"),
+            note: "Ajustes na seção de contato, refino de layout da página e logs de debug na busca de projetos.",
+          },
+          {
+            startDate: new Date("2026-06-24"),
+            endDate: new Date("2026-06-24"),
+            note: "Link de destaque para o calendário no menu e normalização da montagem da URL base+path no fetch.",
+          },
+          {
+            startDate: new Date("2026-06-25"),
+            endDate: new Date("2026-06-25"),
+            note: "Migração dos projetos para dados locais (remoção da integração com API) e atualização do README com estrutura e funcionalidades reais.",
+          },
         ],
       },
     },
