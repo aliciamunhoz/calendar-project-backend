@@ -4,7 +4,7 @@ import { projectRoutes } from "./routes/projects";
 
 const app = Fastify({ logger: true });
 
-app.register(cors, { origin: "http://localhost:5173" });
+app.register(cors, { origin: /^http:\/\/localhost(:\d+)?$/ });
 app.register(projectRoutes, { prefix: "/projects" });
 
 const port = Number(process.env.PORT) || 3333;
